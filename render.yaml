@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: dap
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: ADMIN_PASSWORD
+        generateValue: true
+      - key: MONGODB_URI
+        sync: false

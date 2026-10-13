@@ -1,0 +1,1 @@
+{"name":"dap","version":"1.0.0","private":true,"scripts":{"start":"node server.js"},"engines":{"node":">=18"},"dependencies":{"mongodb":"^6.8.0"}}
